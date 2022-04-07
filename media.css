@@ -1,0 +1,257 @@
+
+@media only screen and (max-width: 640px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        padding: 0px;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    header div.logo{
+        width: 100%;
+
+    }
+    header div.logo img{
+        width: 70px;
+        display: flex;
+        margin-left: 100%;
+    }
+    header div.nav {
+        width: 100%;
+
+    }
+    ul{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    ul li{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    ul li a{
+        font-size: larger;
+        width: 80%;
+        text-align: center;
+        color: gray;
+    }
+    div.nav ul li a:hover{
+        background-color: antiquewhite;
+        border-bottom: 5px solid transparent;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+
+    div.main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    div.box1{
+        align-items: center;
+        padding: 20px 50px;
+    }
+    div.box1 h1{
+        font-size: 25px;
+        padding: 10px 0px;
+    }
+    div.box1 h2{
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    
+    div.box1 p{
+        font-size: 19px;
+        padding-right: 0px;
+        text-align: center;
+        padding: 10px 0px;
+
+    }
+    form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 100%;
+        font-size: 20px;
+        line-height: 20px;   
+        margin-right: 0px;
+        box-shadow: 0px 0px 5px gray;
+        border: none;
+        outline: none;
+        background-color: white;
+        text-align: center;
+    }
+    button{
+        color: white;
+        font-weight: bold;
+        background-color: green;
+        font-size: 20px;
+        padding: 10px 20px;
+        width: fit-content;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px gray;
+    
+    }
+    div.box2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    div.box2 img{
+        background-color: whitesmoke;
+        object-fit: cover;
+        max-width: 300px;
+        margin: 0px auto;
+    }
+    
+
+
+
+
+
+
+    div.main2{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        height: 230px;
+        justify-content: flex-start;
+    }
+
+    div.menu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 0.5;
+        margin: 0px auto;
+    }
+    
+    div.menu ul{
+        list-style: none;
+        width: 100%;    
+    }
+    div.menu ul li{
+        width: 100%;    
+    }
+    div.menu ul li a{
+        text-decoration: none;
+        width: 100%;
+        display: flex;
+        color: gray;
+        font-weight: bold;
+        justify-content: center;
+        text-align: center;
+        border-left: none;
+        padding: 10px 0px;
+        margin: 0px;
+    } 
+    div.menu ul li a:hover{
+        color: goldenrod;
+        width: 100%;
+        background-color: lightgray;
+        font-weight: bold;
+        text-decoration: underline;
+        border-left: none;
+    }
+    .menuextend{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        overflow: scroll;
+    }
+    .fbox{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: 0px 10px; */
+        border-radius: 5px;
+        border-bottom: 5px solid transparent;
+        
+    }
+    .fbox:hover{
+        box-shadow: 0px 0px 20px lightgray;
+        border-bottom: 5px solid green;
+    }
+    .fbox img{
+        width: 80px;
+        margin: 10px;
+    }
+    
+    .tbox2 img{
+        height: 150px;
+        object-fit: cover;
+    }
+
+
+
+
+
+
+
+::placeholder{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .flexable{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
